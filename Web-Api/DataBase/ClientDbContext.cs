@@ -11,7 +11,8 @@ namespace Web_Api.DataBase
 
         public ClientDbContext(DbContextOptions<ClientDbContext> options)
             : base(options)
-        {     
+        {
+            
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
