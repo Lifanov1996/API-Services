@@ -26,5 +26,19 @@ namespace Web_Api.Controllers
             return await clientDb.Clients.ToListAsync();
         }
 
+        /// <summary>
+        /// Получение информации о кошельке клиента
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Wallet>>> Get(int id)
+        {
+            Wallet wallet = await clientDb.Wallets.FirstOrDefaultAsync(x => x.id == id);
+            if (wallet == null)
+                return NotFound();
+            return new ObjectResult(wallet);
+        }
+
     }
 }

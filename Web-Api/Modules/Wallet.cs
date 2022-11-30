@@ -2,10 +2,12 @@
 {
     public class Wallet
     {
-        /// <summary>
-        /// id кошелек клиента
-        /// </summary>
         public int id { get; set; }
+
+        /// <summary>
+        /// Лицевой счет клиента
+        /// </summary>
+        public string Ls { get; set; }
 
         /// <summary>
         /// колличество BitCoin

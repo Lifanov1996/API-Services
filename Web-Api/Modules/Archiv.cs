@@ -8,14 +8,14 @@
         public int id { get; set; }
 
         /// <summary>
-        /// id клиента сделавшего транзакцию
+        /// Ls клиента сделавшего транзакцию
         /// </summary>
-        public int idClientOut { get; set; }
+        public string LsClientOut { get; set; }
 
         /// <summary>
-        /// id клиента получившего транзакцию 
+        /// Ls клиента получившего транзакцию 
         /// </summary>
-        public int idClientIn { get; set; }
+        public string LsClientIn { get; set; }
 
         /// <summary>
         /// тип валюты
