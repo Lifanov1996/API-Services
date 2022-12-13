@@ -13,7 +13,9 @@ URL : https://localhost:44333/api/Home
 
 URL : https://localhost:44333/api/Archivs 
 
-Для получения архива действия 
+Для получения архива действия клиента
+
+![Scren](https://github.com/Lifanov1996/API-Services/blob/main/Api-1.png)
 
 
 ***База данных***
