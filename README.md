@@ -3,6 +3,7 @@
 
 Серверная часть: REST API Net core 7 – слой API с описанием функций (swagger)
 
+
 ***Api***
 URL : https://localhost:44333/api/Home
 
@@ -12,6 +13,7 @@ URL : https://localhost:44333/api/Home
 URL : https://localhost:44333/api/Archivs 
 
 Для получения архива действия 
+
 
 ***База данных***
 
