@@ -5,6 +5,7 @@
 
 
 ***Api***
+
 URL : https://localhost:44333/api/Home
 
 Для получения данных о пользователе и взаимодействие с данными: просмотр, добавление, редактирование, удаление
@@ -28,4 +29,13 @@ builder.Services.AddDbContext<ClientDbContext>(options =>
 ADD-MIGRATION Init
 UPDATE- DATABASE
 ```
+
+***Cors***
+
+Чтобы избежать проблеммы с подключение к API c других источников, хостов и путей используеться сервис 
+```
+builder.Services.AddCors();
+app.UseCors(builder => builder.AllowAnyOrigin());
+```
+Для доступа всех источников к API
 
