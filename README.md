@@ -26,7 +26,7 @@ builder.Services.AddDbContext<ClientDbContext>(options =>
                   options.UseSqlite(connectionString));
 ```
 
-Инициализировалась БД с начальными данными 
+Инициализировалась БД с [начальными данными](https://github.com/Lifanov1996/API-Services/blob/main/Web-Api/DataBase/ClientDbContext.cs) 
 ```
 ADD-MIGRATION Init
 UPDATE- DATABASE
