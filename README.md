@@ -20,7 +20,7 @@ URL : https://localhost:44333/api/Archivs
 
 ***База данных***
 
-Используеться файловая `база данных SQLite`. База данных состоит из 3 таблиц (Clients, Wallets и Archivs). Для работы подключен сервис DbContext 
+Используеться файловая `база данных SQLite`. База данных состоит из 3 таблиц (Clients, Wallets и Archivs). Для работы подключен библиотека EF Core
 ```
 builder.Services.AddDbContext<ClientDbContext>(options =>
                   options.UseSqlite(connectionString));
